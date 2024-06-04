@@ -4,15 +4,32 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    [SerializeField] private GameObject[] defaultCubes;
+    [SerializeField] private Transform cubeParent_TF;
+
+    public int Row, Column;
+
+    private void Awake()
+    {
+        SpawnGrid();
+    }
+
+    private void Start()
     {
         
     }
 
-    // Update is called once per frame
-    void Update()
+    private void SpawnGrid()
     {
-        
+        //Create Cube
+        for (int x = 0; x < Row; x++)
+        {
+            for(int y = 0; y < Column; y++)
+            {
+                GameObject cube = Instantiate(defaultCubes[Random.Range(0, defaultCubes.Length)],
+                new Vector2 (x,y),Quaternion.identity);
+                cube.transform.parent = cubeParent_TF;
+            }
+        }
     }
 }
