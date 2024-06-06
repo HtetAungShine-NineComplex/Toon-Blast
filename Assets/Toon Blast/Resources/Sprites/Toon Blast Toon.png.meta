@@ -267,10 +267,10 @@ TextureImporter:
       name: Toon Blast Toon_7
       rect:
         serializedVersion: 2
-        x: 32
-        y: 903
-        width: 64
-        height: 63
+        x: 33
+        y: 904
+        width: 60
+        height: 60
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -288,10 +288,10 @@ TextureImporter:
       name: Toon Blast Toon_8
       rect:
         serializedVersion: 2
-        x: 257
-        y: 895
-        width: 64
-        height: 66
+        x: 258
+        y: 897
+        width: 60
+        height: 60
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -309,10 +309,10 @@ TextureImporter:
       name: Toon Blast Toon_9
       rect:
         serializedVersion: 2
-        x: 491
-        y: 876
-        width: 70
-        height: 71
+        x: 497
+        y: 881
+        width: 60
+        height: 60
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -330,10 +330,10 @@ TextureImporter:
       name: Toon Blast Toon_10
       rect:
         serializedVersion: 2
-        x: 614
-        y: 876
-        width: 72
-        height: 72
+        x: 620
+        y: 884
+        width: 60
+        height: 60
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -372,10 +372,10 @@ TextureImporter:
       name: Toon Blast Toon_12
       rect:
         serializedVersion: 2
-        x: 36
-        y: 831
-        width: 56
-        height: 52
+        x: 33
+        y: 827
+        width: 60
+        height: 60
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -393,10 +393,10 @@ TextureImporter:
       name: Toon Blast Toon_13
       rect:
         serializedVersion: 2
-        x: 253
-        y: 802
-        width: 69
-        height: 67
+        x: 258
+        y: 806
+        width: 60
+        height: 60
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -414,10 +414,10 @@ TextureImporter:
       name: Toon Blast Toon_14
       rect:
         serializedVersion: 2
-        x: 488
-        y: 759
-        width: 75
-        height: 74
+        x: 495
+        y: 767
+        width: 60
+        height: 60
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -435,10 +435,10 @@ TextureImporter:
       name: Toon Blast Toon_15
       rect:
         serializedVersion: 2
-        x: 617
-        y: 772
-        width: 62
-        height: 68
+        x: 618
+        y: 774
+        width: 60
+        height: 60
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -456,10 +456,10 @@ TextureImporter:
       name: Toon Blast Toon_16
       rect:
         serializedVersion: 2
-        x: 36
+        x: 39
         y: 636
-        width: 65
-        height: 62
+        width: 60
+        height: 60
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -477,10 +477,10 @@ TextureImporter:
       name: Toon Blast Toon_17
       rect:
         serializedVersion: 2
-        x: 246
-        y: 630
-        width: 75
-        height: 77
+        x: 252
+        y: 636
+        width: 60
+        height: 60
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -498,10 +498,10 @@ TextureImporter:
       name: Toon Blast Toon_18
       rect:
         serializedVersion: 2
-        x: 484
-        y: 639
-        width: 80
-        height: 73
+        x: 494
+        y: 646
+        width: 60
+        height: 60
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -519,10 +519,10 @@ TextureImporter:
       name: Toon Blast Toon_19
       rect:
         serializedVersion: 2
-        x: 142
-        y: 566
-        width: 65
-        height: 65
+        x: 144
+        y: 568
+        width: 60
+        height: 60
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -582,10 +582,10 @@ TextureImporter:
       name: Toon Blast Toon_22
       rect:
         serializedVersion: 2
-        x: 264
-        y: 420
-        width: 68
-        height: 67
+        x: 268
+        y: 426
+        width: 60
+        height: 60
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -604,9 +604,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 374
-        y: 421
-        width: 61
-        height: 69
+        y: 426
+        width: 60
+        height: 60
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -624,10 +624,10 @@ TextureImporter:
       name: Toon Blast Toon_24
       rect:
         serializedVersion: 2
-        x: 468
-        y: 429
-        width: 73
-        height: 58
+        x: 474
+        y: 428
+        width: 60
+        height: 60
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
