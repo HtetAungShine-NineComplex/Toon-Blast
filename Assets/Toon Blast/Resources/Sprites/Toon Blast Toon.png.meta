@@ -264,7 +264,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Toon Blast Toon_7
+      name: Green_Rocket
       rect:
         serializedVersion: 2
         x: 33
@@ -285,7 +285,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Toon Blast Toon_8
+      name: Blue Rocket
       rect:
         serializedVersion: 2
         x: 258
@@ -306,7 +306,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Toon Blast Toon_9
+      name: Red Rocket
       rect:
         serializedVersion: 2
         x: 497
@@ -327,7 +327,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Toon Blast Toon_10
+      name: Yellow_Rocket
       rect:
         serializedVersion: 2
         x: 620
@@ -369,7 +369,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Toon Blast Toon_12
+      name: Green_Bomb
       rect:
         serializedVersion: 2
         x: 33
@@ -390,7 +390,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Toon Blast Toon_13
+      name: Blue Bomb
       rect:
         serializedVersion: 2
         x: 258
@@ -411,7 +411,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Toon Blast Toon_14
+      name: Red Bomb
       rect:
         serializedVersion: 2
         x: 495
@@ -432,7 +432,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Toon Blast Toon_15
+      name: Yellow_Bomb
       rect:
         serializedVersion: 2
         x: 618
@@ -453,7 +453,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Toon Blast Toon_16
+      name: Green_Disco
       rect:
         serializedVersion: 2
         x: 39
@@ -474,7 +474,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Toon Blast Toon_17
+      name: Blue Disco
       rect:
         serializedVersion: 2
         x: 252
@@ -495,7 +495,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Toon Blast Toon_18
+      name: Red Disco
       rect:
         serializedVersion: 2
         x: 494
@@ -516,7 +516,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Toon Blast Toon_19
+      name: Final_Disco
       rect:
         serializedVersion: 2
         x: 144
@@ -579,7 +579,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Toon Blast Toon_22
+      name: Final_Bomb
       rect:
         serializedVersion: 2
         x: 268
@@ -600,7 +600,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Toon Blast Toon_23
+      name: Vertical_Rocket
       rect:
         serializedVersion: 2
         x: 374
@@ -621,7 +621,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Toon Blast Toon_24
+      name: Horizontal_Rocket
       rect:
         serializedVersion: 2
         x: 474
@@ -736,24 +736,24 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
+      Blue Bomb: -356803832
+      Blue Disco: 2115345311
+      Blue Rocket: 906752350
+      Final_Bomb: -1386425005
+      Final_Disco: -544379138
+      Green_Bomb: -1613527747
+      Green_Disco: -81672926
+      Green_Rocket: -304420749
+      Horizontal_Rocket: 758757906
+      Red Bomb: 1090661712
+      Red Disco: 535819133
+      Red Rocket: 1752932984
       Toon Blast Toon_0: -577361910
       Toon Blast Toon_1: 964738485
-      Toon Blast Toon_10: 421314069
       Toon Blast Toon_11: -639317756
-      Toon Blast Toon_12: -1613527747
-      Toon Blast Toon_13: -356803832
-      Toon Blast Toon_14: 1090661712
-      Toon Blast Toon_15: -355541117
-      Toon Blast Toon_16: -81672926
-      Toon Blast Toon_17: 2115345311
-      Toon Blast Toon_18: 535819133
-      Toon Blast Toon_19: -544379138
       Toon Blast Toon_2: -817768654
       Toon Blast Toon_20: -858483775
       Toon Blast Toon_21: -589640217
-      Toon Blast Toon_22: -1386425005
-      Toon Blast Toon_23: -1552171643
-      Toon Blast Toon_24: 758757906
       Toon Blast Toon_25: -1599629569
       Toon Blast Toon_26: 705119288
       Toon Blast Toon_27: 1798652368
@@ -762,9 +762,9 @@ TextureImporter:
       Toon Blast Toon_4: 323775315
       Toon Blast Toon_5: 1559889482
       Toon Blast Toon_6: -1486227059
-      Toon Blast Toon_7: -304420749
-      Toon Blast Toon_8: 906752350
-      Toon Blast Toon_9: 1752932984
+      Vertical_Rocket: -1552171643
+      Yellow_Bomb: -355541117
+      Yellow_Rocket: 421314069
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
