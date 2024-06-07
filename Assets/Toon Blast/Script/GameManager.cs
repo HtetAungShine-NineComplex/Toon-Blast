@@ -496,4 +496,68 @@ public class GameManager : MonoBehaviour
             DeleteCubes_Callback();
         }
     }
+
+    public void BombEffect(IDName i)
+    {
+        var p = i.GetComponent<PickUp>();
+        var topLeft = new Tuple<int, int>(p.X - 1, p.Y + 1);
+        var left = new Tuple<int, int>(p.X - 1, p.Y);
+        var downLeft = new Tuple<int, int>(p.X - 1, p.Y - 1);
+        var top = new Tuple<int, int>(p.X, p.Y + 1);
+        var down = new Tuple<int, int>(p.X, p.Y - 1);
+        var topRight = new Tuple<int, int>(p.X + 1 , p.Y + 1);
+        var right = new Tuple<int, int>(p.X + 1, p.Y);
+        var downRight = new Tuple<int, int>(p.X + 1, p.Y - 1);
+
+        i.cubeType = IDName.CubeTypeEnum.Default;
+        cubesToDelete.Add(i.gameObject);
+
+        if (Items.ContainsKey(topLeft))
+        {
+            cubesToDelete.Add(Items[topLeft].gameObject);
+        }
+        if (Items.ContainsKey(left))
+        {
+            cubesToDelete.Add(Items[left].gameObject);
+        }
+        if (Items.ContainsKey(downLeft))
+        {
+            cubesToDelete.Add(Items[downLeft].gameObject);
+        }
+        if (Items.ContainsKey(top))
+        {
+            cubesToDelete.Add(Items[top].gameObject);
+        }
+        if (Items.ContainsKey(down))
+        {
+            cubesToDelete.Add(Items[down].gameObject);
+        }
+        if (Items.ContainsKey(topRight))
+        {
+            cubesToDelete.Add(Items[topRight].gameObject);
+        }
+        if (Items.ContainsKey(right))
+        {
+            cubesToDelete.Add(Items[right].gameObject);
+        }
+        if (Items.ContainsKey(downRight))
+        {
+            cubesToDelete.Add(Items[downRight].gameObject);
+        }
+        DeleteCubes_Callback();
+    }
+
+    public void HorizontalRocketEffect(IDName i)
+    {
+        //var p = i.GetComponent<PickUp>();
+        //for(int a = 0; a < Row; a++)
+        //{
+        //    if (!cubesToDelete.Contains(Items[new Tuple<int, int>(a, p.Y)].gameObject))
+        //    {
+        //        cubesToDelete.Add(Items[new Tuple<int, int>(a, p.Y)].gameObject);
+        //    }
+            
+        //}
+        //DeleteCubes_Callback();
+    }
 }

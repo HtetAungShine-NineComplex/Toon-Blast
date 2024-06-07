@@ -23,7 +23,7 @@ public class PickUp : MonoBehaviour
                 }
                 if (!i.IsDiscoBall && i.IsBomb && !i.IsHorizontalRocket && !i.IsVerticalRocket)
                 {
-                    Debug.Log("This is bomb");
+                    FindObjectOfType<GameManager>().BombEffect(i);
                 }
                 if (!i.IsDiscoBall && !i.IsBomb && i.IsHorizontalRocket && !i.IsVerticalRocket)
                 {
