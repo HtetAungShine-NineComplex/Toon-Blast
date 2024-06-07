@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class IDName : MonoBehaviour
 {
+    #region Field
     public int ID;
     public enum CubeTypeEnum { Default, Rocket, Bomb, Disco}
     public CubeTypeEnum cubeType;
@@ -15,6 +16,7 @@ public class IDName : MonoBehaviour
     [HideInInspector]public bool IsHorizontalRocket, IsVerticalRocket;
     [HideInInspector]public bool IsChangeSprite;
     [HideInInspector]public bool IsSpecialCube = false;
+    #endregion
 
     private void Update()
     {

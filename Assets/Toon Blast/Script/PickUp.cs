@@ -5,8 +5,11 @@ using UnityEngine;
 
 public class PickUp : MonoBehaviour
 {
+    #region Field
     public int X, Y; //RowNumber and ColumnNumber for Cube
+    #endregion
 
+    #region Unity Event
     //Calculate #1
     private void OnMouseDown()
     {
@@ -15,9 +18,9 @@ public class PickUp : MonoBehaviour
             if (GetComponent<IDName>().IsSpecialCube) // True => Special Cube
             {
                 //GameManager.cubeRaycastBlockLayer();
-                GameManager.IsClick = true;
+                //GameManager.IsClick = true;
                 var i = GetComponent<IDName>();
-                if(i.IsDiscoBall && !i.IsBomb && !i.IsHorizontalRocket && !i.IsVerticalRocket)
+                if (i.IsDiscoBall && !i.IsBomb && !i.IsHorizontalRocket && !i.IsVerticalRocket)
                 {
                     FindObjectOfType<GameManager>().DiscoBallEffect(i);
                 }
@@ -40,13 +43,16 @@ public class PickUp : MonoBehaviour
                 GameManager.CalculateCubeNeighbour(GetComponent<PickUp>(), GetComponent<IDName>());
                 FindObjectOfType<GameManager>().DeleteCubes_Callback();
                 //GameManager.cubeRaycastBlockLayer();
-                GameManager.IsClick = true;
-                
+                //GameManager.IsClick = true;
+
                 Debug.Log(this.gameObject.name);
             }
         }
-                  
+
     }
+    #endregion
+
+    #region Cube Neighbour Calculation   
 
     //Calculate #2 //Break Cube
     public void ContinueCalculate_Callback()
@@ -55,8 +61,11 @@ public class PickUp : MonoBehaviour
     }
 
     //Calculate #3 //ChangeSprites
-    public void ContinueCalculate_Callback(Tuple<int,int> id )
+    public void ContinueCalculate_Callback(Tuple<int, int> id)
     {
         GameManager.CalculateCubeNeighbour(GetComponent<PickUp>(), GetComponent<IDName>(), id);
     }
+
+    #endregion
+
 }

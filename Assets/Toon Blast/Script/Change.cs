@@ -5,7 +5,9 @@ using System;
 
 public class Change : MonoBehaviour
 {
-    public int X,Y; //RowNumber and ColumnNumber for CubeBG
+    #region Field
+    //RowNumber and ColumnNumber for CubeBG
+    public int X,Y; 
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -19,4 +21,5 @@ public class Change : MonoBehaviour
                 GameManager.Items.Add(new Tuple<int, int>(X, Y), collision.gameObject.GetComponent<PickUp>());
         }
     }
+    #endregion
 }
