@@ -120,3 +120,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ID: 1
+  cubeType: 0
+  CubeSpriteTypes:
+  - {fileID: -817768654, guid: 6241e9f1cf8f2b74c9df6eeb95c53d37, type: 3}
+  - {fileID: 906752350, guid: 6241e9f1cf8f2b74c9df6eeb95c53d37, type: 3}
+  - {fileID: -356803832, guid: 6241e9f1cf8f2b74c9df6eeb95c53d37, type: 3}
+  - {fileID: 2115345311, guid: 6241e9f1cf8f2b74c9df6eeb95c53d37, type: 3}
+  Bomb: {fileID: -1386425005, guid: 6241e9f1cf8f2b74c9df6eeb95c53d37, type: 3}
+  Disco: {fileID: 387311670, guid: 123674408733e6d4db30fd536dc236d5, type: 3}
+  Rocket:
+  - {fileID: 758757906, guid: 6241e9f1cf8f2b74c9df6eeb95c53d37, type: 3}
+  - {fileID: -1552171643, guid: 6241e9f1cf8f2b74c9df6eeb95c53d37, type: 3}
+  IsRocket: 0
+  IsHorizontalRocket: 0
+  IsVerticalRocket: 0
+  IsChangeSprite: 0
+  IsSpecialCube: 0
